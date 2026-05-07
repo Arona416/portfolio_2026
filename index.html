@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио Barry Arona, Junior Data Analyst: Power BI, SQL, Python, Excel, Business Intelligence и визуализация данных.">
+  <title>Barry Arona | Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" aria-label="Загрузка страницы">
+    <div class="loader__mark">
+      <span></span><span></span><span></span>
+    </div>
+    <p>Загрузка данных...</p>
+  </div>
+
+  <header class="site-header" id="header">
+    <nav class="nav" aria-label="Главная навигация">
+      <a href="#hero" class="brand" aria-label="Barry Arona">
+        <span class="brand__icon">BA</span>
+        <span>Barry Arona</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-panel" id="navPanel">
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
+        <a href="#certifications">Сертификаты</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+        <span class="theme-toggle__sun">☀</span>
+        <span class="theme-toggle__moon">●</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="hero__glow hero__glow--one"></div>
+      <div class="hero__glow hero__glow--two"></div>
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Портфолио аналитика данных</p>
+          <h1>Barry Arona</h1>
+          <h2>Data Analyst Junior | Power BI Analyst | Python Data Enthusiast</h2>
+          <p class="hero__text">
+            Помогаю превращать сырые данные в понятные выводы, интерактивные Dashboard и бизнес-решения. Работаю с Excel, SQL, Python и Power BI, чтобы находить закономерности, контролировать KPI и делать аналитику полезной для команды.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">Посмотреть проекты</a>
+            <a href="#" class="btn btn--ghost" download>Скачать резюме</a>
+            <a href="#contact" class="btn btn--soft">Связаться со мной</a>
+          </div>
+          <div class="hero__stats" aria-label="Ключевые показатели">
+            <div><strong>8+</strong><span>навыков data-аналитики</span></div>
+            <div><strong>6</strong><span>реалистичных проектов</span></div>
+            <div><strong>4</strong><span>направления сертификации</span></div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal" data-delay="150">
+          <div class="data-orbit" aria-hidden="true">
+            <div class="data-card data-card--main">
+              <div class="chart-header">
+                <span>Analytics Overview</span>
+                <strong>+24.8%</strong>
+              </div>
+              <div class="bar-chart">
+                <span style="--h:48%"></span>
+                <span style="--h:76%"></span>
+                <span style="--h:58%"></span>
+                <span style="--h:90%"></span>
+                <span style="--h:64%"></span>
+                <span style="--h:82%"></span>
+              </div>
+              <div class="kpi-row">
+                <span>KPI</span>
+                <span>SQL</span>
+                <span>Power BI</span>
+              </div>
+            </div>
+            <div class="floating-chip chip-one">Python</div>
+            <div class="floating-chip chip-two">Business Intelligence</div>
+            <div class="floating-chip chip-three">Data Visualization</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Обо мне</p>
+          <h2>Аналитик, который соединяет данные, бизнес и ясные решения</h2>
+        </div>
+        <div class="about__copy reveal" data-delay="120">
+          <p>
+            Barry Arona - Junior Data Analyst с фокусом на практической аналитике, визуализации данных и построении понятных отчетов для бизнеса. Его подход сочетает внимательную работу с качеством данных, структурное мышление и современную подачу результатов.
+          </p>
+          <p>
+            Он стремится превращать сложные массивы данных в четкие инсайты: от очистки таблиц и SQL-запросов до Python-анализа, Dashboard в Power BI и визуализаций, которые помогают принимать стратегические решения быстрее.
+          </p>
+        </div>
+      </div>
+
+      <div class="container timeline reveal">
+        <article class="timeline__item">
+          <span>2022</span>
+          <h3>Информатика и экономика</h3>
+          <p>Фундаментальная подготовка в прикладной информатике, экономическом анализе и цифровых инструментах.</p>
+        </article>
+        <article class="timeline__item">
+          <span>2024</span>
+          <h3>Data Analysis Bootcamp</h3>
+          <p>Практика в Excel, SQL, Python, Power BI, очистке данных и создании аналитических отчетов.</p>
+        </article>
+        <article class="timeline__item">
+          <span>2025</span>
+          <h3>Дипломный проект</h3>
+          <p>Интерактивное приложение для анализа блокчейн-данных Bitcoin и Solana с визуализацией транзакций.</p>
+        </article>
+        <article class="timeline__item">
+          <span>2026</span>
+          <h3>Junior Data Analyst</h3>
+          <p>Развитие портфолио, подготовка к проектам для бизнеса и углубление в Business Intelligence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading section-heading--center reveal">
+          <p class="eyebrow">Навыки</p>
+          <h2>Инструменты для анализа, визуализации и принятия решений</h2>
+        </div>
+        <div class="skills__grid">
+          <article class="skill-card reveal" data-level="90">
+            <div class="skill-card__icon">XL</div><h3>Excel</h3>
+            <p>Сводные таблицы, формулы, подготовка данных и аналитические отчеты.</p>
+            <div class="progress"><span></span></div><strong>Уверенный уровень</strong>
+          </article>
+          <article class="skill-card reveal" data-level="78">
+            <div class="skill-card__icon">SQL</div><h3>SQL</h3>
+            <p>Запросы, фильтрация, агрегации, joins и подготовка данных для анализа.</p>
+            <div class="progress"><span></span></div><strong>Средний плюс</strong>
+          </article>
+          <article class="skill-card reveal" data-level="74">
+            <div class="skill-card__icon">PY</div><h3>Python</h3>
+            <p>Анализ данных, pandas, визуализация, автоматизация повторяющихся задач.</p>
+            <div class="progress"><span></span></div><strong>Практический уровень</strong>
+          </article>
+          <article class="skill-card reveal" data-level="84">
+            <div class="skill-card__icon">BI</div><h3>Power BI</h3>
+            <p>Dashboard, модели данных, KPI, интерактивные отчеты и визуальные истории.</p>
+            <div class="progress"><span></span></div><strong>Уверенный уровень</strong>
+          </article>
+          <article class="skill-card reveal" data-level="82">
+            <div class="skill-card__icon">DC</div><h3>Data Cleaning</h3>
+            <p>Очистка, нормализация, проверка качества и подготовка данных к работе.</p>
+            <div class="progress"><span></span></div><strong>Уверенный уровень</strong>
+          </article>
+          <article class="skill-card reveal" data-level="86">
+            <div class="skill-card__icon">DV</div><h3>Data Visualization</h3>
+            <p>Графики, визуальные акценты, понятная структура и презентация инсайтов.</p>
+            <div class="progress"><span></span></div><strong>Уверенный уровень</strong>
+          </article>
+          <article class="skill-card reveal" data-level="80">
+            <div class="skill-card__icon">DB</div><h3>Dashboarding</h3>
+            <p>Проектирование Dashboard под задачи бизнеса, мониторинг и контроль KPI.</p>
+            <div class="progress"><span></span></div><strong>Практический уровень</strong>
+          </article>
+          <article class="skill-card reveal" data-level="83">
+            <div class="skill-card__icon">DA</div><h3>Data Analysis</h3>
+            <p>Исследование данных, поиск закономерностей, выводы и рекомендации.</p>
+            <div class="progress"><span></span></div><strong>Уверенный уровень</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading--center reveal">
+          <p class="eyebrow">Проекты</p>
+          <h2>Практические кейсы в аналитике данных</h2>
+          <p>Подборка проектов показывает умение работать с данными от первичной подготовки до готового визуального продукта для бизнеса.</p>
+        </div>
+
+        <div class="project-filters reveal" aria-label="Фильтры проектов">
+          <button class="filter-btn active" data-filter="all">Все проекты</button>
+          <button class="filter-btn" data-filter="powerbi">Power BI Projects</button>
+          <button class="filter-btn" data-filter="python">Python Projects</button>
+          <button class="filter-btn" data-filter="sql">SQL Projects</button>
+          <button class="filter-btn" data-filter="academic">Academic Projects</button>
+          <button class="filter-btn" data-filter="visualization">Data Visualization</button>
+        </div>
+
+        <article class="project-featured reveal project-card" data-category="academic python sql visualization">
+          <div class="project-featured__media">
+            <div class="project-art project-art--blockchain">
+              <span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="project-featured__content">
+            <div class="project-badges">
+              <span>Академический проект</span>
+              <span>Blockchain Analytics</span>
+            </div>
+            <h3>Дипломный проект</h3>
+            <h4>Интерактивное приложение для анализа и визуализации блокчейн-данных (Bitcoin и Solana)</h4>
+            <p>
+              Академический проект, разработанный для анализа блокчейн-данных и создания интерактивных визуализаций для отслеживания транзакций и тенденций криптовалют.
+            </p>
+            <div class="tech-list">
+              <span>Python</span><span>SQL</span><span>Data Visualization</span><span>Blockchain Analytics</span>
+            </div>
+            <button class="btn btn--primary project-more" type="button">Подробнее</button>
+          </div>
+        </article>
+
+        <div class="projects__grid">
+          <article class="project-card reveal" data-category="powerbi visualization">
+            <div class="project-thumb thumb-sales"></div>
+            <div class="project-card__body">
+              <span class="project-tag">Power BI Projects</span>
+              <h3>Dashboard Power BI для анализа продаж</h3>
+              <p>Интерактивный Dashboard для отслеживания выручки, регионов, динамики продаж и ключевых KPI.</p>
+              <div class="tech-list"><span>Power BI</span><span>KPI</span><span>Excel</span></div>
+              <button class="text-btn project-more" type="button">Подробнее</button>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="sql">
+            <div class="project-thumb thumb-hr"></div>
+            <div class="project-card__body">
+              <span class="project-tag">SQL Projects</span>
+              <h3>HR-аналитика с использованием SQL</h3>
+              <p>Анализ текучести персонала, структуры команд и факторов удержания сотрудников через SQL-запросы.</p>
+              <div class="tech-list"><span>SQL</span><span>HR Analytics</span><span>BI</span></div>
+              <button class="text-btn project-more" type="button">Подробнее</button>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="python">
+            <div class="project-thumb thumb-finance"></div>
+            <div class="project-card__body">
+              <span class="project-tag">Python Projects</span>
+              <h3>Финансовый анализ с Python</h3>
+              <p>Исследование финансовых показателей, трендов и отклонений с помощью pandas и визуализаций.</p>
+              <div class="tech-list"><span>Python</span><span>pandas</span><span>Analytics</span></div>
+              <button class="text-btn project-more" type="button">Подробнее</button>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="powerbi visualization">
+            <div class="project-thumb thumb-kpi"></div>
+            <div class="project-card__body">
+              <span class="project-tag">Data Visualization</span>
+              <h3>Интерактивный KPI Dashboard</h3>
+              <p>Система мониторинга KPI для быстрой оценки эффективности процессов и бизнес-направлений.</p>
+              <div class="tech-list"><span>Power BI</span><span>Dashboard</span><span>KPI</span></div>
+              <button class="text-btn project-more" type="button">Подробнее</button>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="sql python">
+            <div class="project-thumb thumb-client"></div>
+            <div class="project-card__body">
+              <span class="project-tag">Data Analysis</span>
+              <h3>Анализ клиентских данных</h3>
+              <p>Сегментация клиентов, поиск паттернов поведения и подготовка рекомендаций для маркетинга.</p>
+              <div class="tech-list"><span>SQL</span><span>Python</span><span>Excel</span></div>
+              <button class="text-btn project-more" type="button">Подробнее</button>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="visualization">
+            <div class="project-thumb thumb-visual"></div>
+            <div class="project-card__body">
+              <span class="project-tag">Data Visualization</span>
+              <h3>Продвинутая визуализация данных</h3>
+              <p>Набор визуальных решений для представления сложных данных в понятной и убедительной форме.</p>
+              <div class="tech-list"><span>Charts</span><span>Storytelling</span><span>BI</span></div>
+              <button class="text-btn project-more" type="button">Подробнее</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section certifications" id="certifications">
+      <div class="container">
+        <div class="section-heading section-heading--center reveal">
+          <p class="eyebrow">Сертификаты</p>
+          <h2>Подтверждение навыков и профессионального роста</h2>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card cert-card--featured reveal">
+            <div class="cert-card__icon">MS</div>
+            <span class="cert-badge">Microsoft</span>
+            <h3>Microsoft Power BI Certification (PL-300)</h3>
+            <p>Сертификация по аналитике данных, моделированию, визуализации и созданию отчетов в Power BI.</p>
+            <div class="cert-meta"><span>2026</span><span>Microsoft</span></div>
+            <a href="#" class="btn btn--soft">Посмотреть сертификат</a>
+          </article>
+          <article class="cert-card reveal">
+            <div class="cert-card__icon">JS</div>
+            <span class="cert-badge">JavaScript</span>
+            <h3>FreeCodeCamp JavaScript Certification</h3>
+            <p>Практическая подготовка по JavaScript, логике интерфейсов и интерактивным веб-компонентам.</p>
+            <div class="cert-meta"><span>2025</span><span>FreeCodeCamp</span></div>
+            <a href="#" class="btn btn--soft">Посмотреть сертификат</a>
+          </article>
+          <article class="cert-card reveal">
+            <div class="cert-card__icon">DA</div>
+            <span class="cert-badge">Data</span>
+            <h3>Bootcamp Data Analysis</h3>
+            <p>Интенсивная программа по Excel, SQL, Python, Power BI и полному циклу анализа данных.</p>
+            <div class="cert-meta"><span>2025</span><span>Data Bootcamp</span></div>
+            <a href="#" class="btn btn--soft">Посмотреть сертификат</a>
+          </article>
+          <article class="cert-card reveal">
+            <div class="cert-card__icon">BA</div>
+            <span class="cert-badge">Bachelor</span>
+            <h3>Bachelor en informatique appliquée à l’économie</h3>
+            <p>Академическая база в прикладной информатике, экономике, анализе и цифровых системах.</p>
+            <div class="cert-meta"><span>2024</span><span>Университет</span></div>
+            <a href="#" class="btn btn--soft">Посмотреть сертификат</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Услуги</p>
+          <h2>Что могу сделать для проекта или команды</h2>
+        </div>
+        <div class="services__grid">
+          <article class="service-card reveal"><span>01</span><h3>Анализ данных</h3><p>Поиск закономерностей, подготовка выводов и практических рекомендаций.</p></article>
+          <article class="service-card reveal"><span>02</span><h3>Создание Dashboard</h3><p>Интерактивные панели для контроля показателей и процессов.</p></article>
+          <article class="service-card reveal"><span>03</span><h3>Power BI Reporting</h3><p>Отчеты, модели данных и визуальная аналитика для бизнеса.</p></article>
+          <article class="service-card reveal"><span>04</span><h3>Очистка данных</h3><p>Подготовка, нормализация и проверка качества таблиц.</p></article>
+          <article class="service-card reveal"><span>05</span><h3>Анализ Excel</h3><p>Работа с таблицами, сводными отчетами и расчетными моделями.</p></article>
+          <article class="service-card reveal"><span>06</span><h3>Визуализация данных</h3><p>Понятные графики, акценты и презентация аналитических результатов.</p></article>
+          <article class="service-card reveal"><span>07</span><h3>Создание KPI</h3><p>Структурирование метрик для мониторинга эффективности.</p></article>
+          <article class="service-card reveal"><span>08</span><h3>Business Intelligence аналитика</h3><p>Инсайты для принятия решений на основе данных.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info reveal">
+          <p class="eyebrow">Контакты</p>
+          <h2>Готов обсудить data-проект, стажировку или сотрудничество</h2>
+          <p>Напишите, если нужен аналитик для отчетности, Dashboard, подготовки данных или исследования бизнес-показателей.</p>
+          <div class="contact-list">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:barry.arona@email.com">barry.arona@email.com</a>
+            <a href="tel:+79990000000">+7 999 000 00 00</a>
+            <span>Самара, Россия</span>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" data-delay="120">
+          <label>
+            <span>Имя</span>
+            <input type="text" name="name" placeholder="Ваше имя" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            <span>Тема</span>
+            <input type="text" name="subject" placeholder="Тема сообщения" required>
+          </label>
+          <label>
+            <span>Сообщение</span>
+            <textarea name="message" rows="5" placeholder="Расскажите о задаче" required></textarea>
+          </label>
+          <button class="btn btn--primary" type="submit">Отправить</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#hero" class="brand"><span class="brand__icon">BA</span><span>Barry Arona</span></a>
+        <p>Данные становятся ценнее, когда они превращаются в ясные решения.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#certifications">Сертификаты</a>
+        <a href="#contact">Контакты</a>
+      </div>
+      <div class="footer__socials">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+    <div class="footer__bottom">© 2026 Barry Arona. Все права защищены.</div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Вернуться наверх">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
