@@ -114,16 +114,10 @@ document.querySelectorAll(".project-more").forEach((button) => {
 });
 
 if (contactForm) {
-  // Static portfolio form feedback; backend integration can be added later.
-  contactForm.addEventListener("submit", (event) => {
-    event.preventDefault();
+  // Let FormSubmit deliver the message while showing immediate local feedback.
+  contactForm.addEventListener("submit", () => {
     const status = contactForm.querySelector(".form-status");
-    status.textContent = "Спасибо! Сообщение подготовлено к отправке.";
-    contactForm.reset();
-
-    window.setTimeout(() => {
-      status.textContent = "";
-    }, 4200);
+    status.textContent = "Спасибо! Сообщение отправляется на email.";
   });
 }
 

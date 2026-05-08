@@ -71,6 +71,10 @@
 
         <div class="hero__visual reveal" data-delay="150">
           <div class="data-orbit" aria-hidden="true">
+            <div class="profile-photo-card">
+              <img src="linkdinphoto-removebg-preview%20%281%29.png" alt="Портрет Barry Arona">
+              <span>Junior Data Analyst</span>
+            </div>
             <div class="data-card data-card--main">
               <div class="chart-header">
                 <span>Analytics Overview</span>
@@ -116,12 +120,12 @@
 
       <div class="container timeline reveal">
         <article class="timeline__item">
-          <span>2022</span>
+          <span>C 2021</span>
           <h3>Информатика и экономика</h3>
           <p>Фундаментальная подготовка в прикладной информатике, экономическом анализе и цифровых инструментах.</p>
         </article>
         <article class="timeline__item">
-          <span>2024</span>
+          <span>2025</span>
           <h3>Data Analysis Bootcamp</h3>
           <p>Практика в Excel, SQL, Python, Power BI, очистке данных и создании аналитических отчетов.</p>
         </article>
@@ -208,8 +212,33 @@
 
         <article class="project-featured reveal project-card" data-category="academic python sql visualization">
           <div class="project-featured__media">
-            <div class="project-art project-art--blockchain">
-              <span></span><span></span><span></span><span></span>
+            <div class="screenshot-gallery" aria-label="Скриншоты приложения дипломного проекта">
+              <div class="app-shot app-shot--intro">
+                <span class="shot-sidebar"></span>
+                <div class="shot-content">
+                  <strong>Интерактивный анализ данных блокчейна</strong>
+                  <p>Bitcoin · Solana · Comparison · Education</p>
+                  <ul>
+                    <li>Дашборд Bitcoin</li>
+                    <li>Дашборд Solana</li>
+                    <li>Сравнение BTC vs SOL</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="app-shot app-shot--chart">
+                <strong>Bitcoin - статистика блокчейна</strong>
+                <span>$79,440.00</span>
+                <div class="mini-chart mini-chart--orange"></div>
+              </div>
+              <div class="app-shot app-shot--chart">
+                <strong>Solana - статистика сети</strong>
+                <span>$87.96 · TPS 2890.73</span>
+                <div class="mini-chart mini-chart--blue"></div>
+              </div>
+              <div class="app-shot app-shot--wide">
+                <strong>Сравнение Bitcoin vs Solana</strong>
+                <div class="dual-lines"></div>
+              </div>
             </div>
           </div>
           <div class="project-featured__content">
@@ -225,19 +254,28 @@
             <div class="tech-list">
               <span>Python</span><span>SQL</span><span>Data Visualization</span><span>Blockchain Analytics</span>
             </div>
-            <button class="btn btn--primary project-more" type="button">Подробнее</button>
+            <div class="project-actions">
+              <a class="btn btn--primary" href="https://app-application-for-bitcoin-solana-blockchain-analysis-gsatcsb.streamlit.app/" target="_blank" rel="noreferrer">Открыть приложение</a>
+              <button class="btn btn--soft project-more" type="button">Подробнее</button>
+            </div>
           </div>
         </article>
 
         <div class="projects__grid">
           <article class="project-card reveal" data-category="powerbi visualization">
-            <div class="project-thumb thumb-sales"></div>
+            <div class="project-thumb thumb-yandex">
+              <div class="yandex-mock">
+                <span class="yandex-logo">Yandex</span>
+                <div class="yandex-bars"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="yandex-line"></div>
+              </div>
+            </div>
             <div class="project-card__body">
               <span class="project-tag">Power BI Projects</span>
-              <h3>Dashboard Power BI для анализа продаж</h3>
-              <p>Интерактивный Dashboard для отслеживания выручки, регионов, динамики продаж и ключевых KPI.</p>
-              <div class="tech-list"><span>Power BI</span><span>KPI</span><span>Excel</span></div>
-              <button class="text-btn project-more" type="button">Подробнее</button>
+              <h3>Power BI Dashboard для анализа данных Yandex</h3>
+              <p>Интерактивный отчет Power BI для анализа сумм, количества заказов, категорий и динамики показателей по данным Yandex.</p>
+              <div class="tech-list"><span>Power BI</span><span>Dashboard</span><span>KPI</span><span>Data Visualization</span></div>
+              <a class="text-btn" href="https://app.powerbi.com/groups/me/reports/bb21016b-04f7-45c5-bf20-6776f9d718f4/cae7fd369639d5008d40?experience=power-bi" target="_blank" rel="noreferrer">Открыть Dashboard</a>
             </div>
           </article>
           <article class="project-card reveal" data-category="sql">
@@ -299,39 +337,84 @@
         <div class="section-heading section-heading--center reveal">
           <p class="eyebrow">Сертификаты</p>
           <h2>Подтверждение навыков и профессионального роста</h2>
+          <p>Здесь представлены реальные сертификаты из папки certifications: Excel for Data Analysis, FreeCodeCamp JavaScript, ANSSI и подтверждение уровня английского B2.</p>
         </div>
         <div class="cert-grid">
           <article class="cert-card cert-card--featured reveal">
-            <div class="cert-card__icon">MS</div>
-            <span class="cert-badge">Microsoft</span>
-            <h3>Microsoft Power BI Certification (PL-300)</h3>
-            <p>Сертификация по аналитике данных, моделированию, визуализации и созданию отчетов в Power BI.</p>
-            <div class="cert-meta"><span>2026</span><span>Microsoft</span></div>
-            <a href="#" class="btn btn--soft">Посмотреть сертификат</a>
+            <a class="cert-file cert-file--excel" href="certifications/Certicat_excel_for_Data_Analysis.pdf" target="_blank" rel="noreferrer" aria-label="Открыть сертификат Excel for Data Analysis">
+              <span>PDF</span>
+              <strong>Excel for Data Analysis</strong>
+            </a>
+            <div class="cert-card__icon">XL</div>
+            <span class="cert-badge">Data Analysis</span>
+            <h3>Excel for Data Analysis</h3>
+            <p>Сертификат, подтверждающий практические навыки анализа данных в Excel: таблицы, расчеты, подготовка данных и аналитические отчеты.</p>
+            <ul class="cert-points">
+              <li>Анализ таблиц и бизнес-показателей</li>
+              <li>Подготовка данных для отчетности</li>
+              <li>Практическая база для Dashboard и KPI</li>
+            </ul>
+            <div class="cert-meta"><span>2026</span><span>Excel / Data Analysis</span></div>
+            <a href="certifications/Certicat_excel_for_Data_Analysis.pdf" class="btn btn--soft" target="_blank" rel="noreferrer">Посмотреть сертификат</a>
           </article>
           <article class="cert-card reveal">
+            <img class="cert-preview" src="certifications/CertificationFreeCode%20Camp%20en%20anglais%20.jpg" alt="Сертификат FreeCodeCamp JavaScript">
             <div class="cert-card__icon">JS</div>
             <span class="cert-badge">JavaScript</span>
             <h3>FreeCodeCamp JavaScript Certification</h3>
             <p>Практическая подготовка по JavaScript, логике интерфейсов и интерактивным веб-компонентам.</p>
-            <div class="cert-meta"><span>2025</span><span>FreeCodeCamp</span></div>
-            <a href="#" class="btn btn--soft">Посмотреть сертификат</a>
+            <ul class="cert-points">
+              <li>Vanilla JavaScript</li>
+              <li>Интерактивные интерфейсы</li>
+            </ul>
+            <div class="cert-meta"><span>2023</span><span>FreeCodeCamp</span></div>
+            <a href="certifications/CertificationFreeCode%20Camp%20en%20anglais%20.jpg" class="btn btn--soft" target="_blank" rel="noreferrer">Посмотреть сертификат</a>
           </article>
           <article class="cert-card reveal">
-            <div class="cert-card__icon">DA</div>
-            <span class="cert-badge">Data</span>
-            <h3>Bootcamp Data Analysis</h3>
-            <p>Интенсивная программа по Excel, SQL, Python, Power BI и полному циклу анализа данных.</p>
-            <div class="cert-meta"><span>2025</span><span>Data Bootcamp</span></div>
-            <a href="#" class="btn btn--soft">Посмотреть сертификат</a>
+            <a class="cert-file cert-file--security" href="certifications/Attestion%20ANSSI.pdf" target="_blank" rel="noreferrer" aria-label="Открыть аттестацию ANSSI">
+              <span>PDF</span>
+              <strong>Attestation ANSSI</strong>
+            </a>
+            <div class="cert-card__icon">CY</div>
+            <span class="cert-badge">Cybersécurité</span>
+            <h3>Attestation ANSSI</h3>
+            <p>Сертификат по основам цифровой безопасности, важный для ответственной работы с данными и аналитическими системами.</p>
+            <ul class="cert-points">
+              <li>Базовые принципы кибербезопасности</li>
+              <li>Безопасная работа с цифровыми сервисами</li>
+            </ul>
+            <div class="cert-meta"><span>2024</span><span>ANSSI</span></div>
+            <a href="certifications/Attestion%20ANSSI.pdf" class="btn btn--soft" target="_blank" rel="noreferrer">Посмотреть сертификат</a>
           </article>
           <article class="cert-card reveal">
+            <a class="cert-file cert-file--language" href="certifications/Attestation%20de%20Arouna%20english__A2.pdf" target="_blank" rel="noreferrer" aria-label="Открыть аттестацию английского B2">
+              <span>PDF</span>
+              <strong>English level B2</strong>
+            </a>
+            <div class="cert-card__icon">EN</div>
+            <span class="cert-badge">English B2</span>
+            <h3>Attestation de niveau anglais B2</h3>
+            <p>Подтверждение уровня английского языка, полезного для работы с технической документацией, курсами и международными data-инструментами.</p>
+            <ul class="cert-points">
+              <li>Понимание базовой технической лексики</li>
+              <li>Работа с англоязычными учебными материалами</li>
+            </ul>
+            <div class="cert-meta"><span>2024</span><span>Language Certification · B2</span></div>
+            <a href="certifications/Attestation%20de%20Arouna%20english__A2.pdf" class="btn btn--soft" target="_blank" rel="noreferrer">Посмотреть сертификат</a>
+          </article>
+          <article class="cert-card cert-card--diploma reveal">
+            <img class="cert-preview cert-preview--diploma" src="DIPLOME%20BACHLOR/BACHLOR%20DIPLOMA.jfif" alt="Диплом Bachelor Barry Arona">
             <div class="cert-card__icon">BA</div>
             <span class="cert-badge">Bachelor</span>
             <h3>Bachelor en informatique appliquée à l’économie</h3>
-            <p>Академическая база в прикладной информатике, экономике, анализе и цифровых системах.</p>
-            <div class="cert-meta"><span>2024</span><span>Университет</span></div>
-            <a href="#" class="btn btn--soft">Посмотреть сертификат</a>
+            <p>Диплом бакалавра, подтверждающий академическую подготовку в прикладной информатике, экономике и аналитическом мышлении.</p>
+            <ul class="cert-points">
+              <li>Прикладная информатика</li>
+              <li>Экономика и анализ данных</li>
+              <li>Академическая база для Business Intelligence</li>
+            </ul>
+            <div class="cert-meta"><span>2024</span><span>Bachelor Diploma</span></div>
+            <a href="DIPLOME%20BACHLOR/BACHLOR%20DIPLOMA.jfif" class="btn btn--soft" target="_blank" rel="noreferrer">Посмотреть диплом</a>
           </article>
         </div>
       </div>
@@ -366,12 +449,16 @@
             <a href="https://www.linkedin.com/in/arona-barry-11071a201/" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="https://github.com/Arona416" target="_blank" rel="noreferrer">GitHub</a>
             <a href="mailto:aronadakar7@gmail.com">aronadakar7@gmail.com</a>
-            <a href="tel:+7 915 431 24 13">+7 915 431 24 13</a>
+            <a href="tel:+79154312413">+7 915 431 24 13</a>
             <span>Самара, Россия</span>
           </div>
         </div>
 
-        <form class="contact-form reveal" data-delay="120">
+        <form class="contact-form reveal" action="https://formsubmit.co/aronadakar7@gmail.com" method="POST" target="_blank" data-delay="120">
+          <input type="hidden" name="_subject" value="Новое сообщение с портфолио Barry Arona">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
           <label>
             <span>Имя</span>
             <input type="text" name="name" placeholder="Ваше имя" required>
@@ -408,7 +495,7 @@
         <a href="#contact">Контакты</a>
       </div>
       <div class="footer__socials">
-        <a href="https://www.linkedin.com/in/arona-barry-11071a201/ target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/arona-barry-11071a201/" target="_blank" rel="noreferrer">LinkedIn</a>
         <a href="https://github.com/Arona416" target="_blank" rel="noreferrer">GitHub</a>
       </div>
     </div>
